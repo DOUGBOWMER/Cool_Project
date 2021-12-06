@@ -2,8 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components{
+    
+    
+    .tshadow {
+        text-shadow: 0px, 2px, 2px, red
+    }
+    
+
+} 
 
 
+.tshadow {
+    text-shadow: 1px, 2px, 3px rgba(0, 0, 0, 0.863);
+}
 
 
 
